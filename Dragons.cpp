@@ -3,12 +3,6 @@ using namespace std;
 
 int main()
 {
-#ifndef ONLINE_JUDGE
-    //fro getting input from input.txt
-    freopen("input.txt", "r", stdin);
-    //for writting output to output.txt
-    freopen("output.txt", "w", stdout);
-#endif
     int s, n, l = 0;
     multimap<int, int> map;
     multimap<int, int>::iterator itr;
