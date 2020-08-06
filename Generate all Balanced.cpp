@@ -24,14 +24,6 @@ void solve(int open, int close, string op, vector<string>& vec)
 	}
 }
 
-void func(int n)
-{
-	
-	return ;
-}
-
-
-
 int main()
 {
 	int n, open, close;
