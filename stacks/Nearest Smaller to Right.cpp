@@ -9,8 +9,8 @@ int main()
     //for writting output to output.txt
     freopen("output.txt", "w", stdout);
 #endif
-    int arr[] = {4, 5, 2,10,8};
-
+    int arr[] ={5, 3, 5, 7, 6};
+    sort(arr, arr+5);
     stack<int> stc;
     vector<int> vec;
     for (int i = 4; i >= 0; i--)
